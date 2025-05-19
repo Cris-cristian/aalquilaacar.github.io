@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alquilar car</title>
+    <link rel="stylesheet" href="../css/presupuesto.css">
+    <link rel="shortcut icon" href="../img/favicon-png.webp" type="image/x-icon">
+</head>
+<body>
+
+<!-- _______________________HEADER_____________________________ -->
+
+    <header>
+        <nav class="nav">
+            <img src="../img/logo.webp" alt="logo" title="logo de la empresa" width="90" height="90" class="logo">
+            
+            <ul>
+                <li><a href="../index.html" >inicio</a></li>
+                <li><a href="./producto.html" >producto</a></li>
+                <li><a style="color:rgb(160, 160, 160);" href="#">presupuesto</a></li>
+                <li><a href="./contacto.html">contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+
+<!-- _______________________MAIN__________________________________ -->
+
+    <main>
+        <h3> Rellena la información para obtener más 
+            <span> información </span> </h3>
+        <div class="div-form">
+
+<!-- _______________________FORMULARIO____________________________ -->
+
+
+            <form action="post" class="form">
+
+                <div class="name">
+                    <label for="name">nombre completo :</label>
+                    <input type="text" name="name" id="name" required placeholder="nombre completo" pattern="[A-Za-z\s]+" maxlength="35" minlength="3">
+                </div>
+                <div class="name">
+                    <label for="email">correo electrónico :</label>
+                    <input type="email" name="email" id="email"  placeholder="email" pattern="[A-Za-z0-9%_.+\-]+@[A-Za-z0-9_.\-]+\.[a-zA-Z]{2,}$" required>
+                </div>
+                <div class="name">
+                    <label for="tel">teléfono :</label>
+                    <input type="tel" name="tel" id="tel" placeholder="escriba su numero de telefono" required pattern="[\d]{9}">
+                </div>
+                <div class="name">
+                    <label for="area">mensaje adicional:</label>
+                    <textarea name="area" id="area" placeholder="opcional"></textarea>
+                </div>
+                <div class="div-check">
+                    <label for="check" class="check-label"><a href="https://www.randoncorp.com/media/1896/pol%EDtica-de-privacidad-empresas-randon.pdf" class="check-enlace" rel="noopener noreferrer" target="_blank">politica de privacidad</a></label>
+                    <input type="checkbox" name="check" id="check" class="check" required>
+                </div>
+                <div class="name-enviar">
+                    <input type="submit" value="enviar" class="enviar">
+                </div>
+            </form>
+        </div>
+        
+    </main>
+
+
+<!-- _________________________FOOTER_______________________________ -->
+
+    <footer class="pie">
+
+<!-- _________________________REDES SOCIALES_______________________ -->
+
+        
+        <div class="piediv">
+            <a target="_blank" class="enlacess" href="https://x.com/"><img class=" red-social" src="../img/redes/88b39zip.png" alt=" red social" title="red social" width="300" height="300" aria-label="red social: twiter"></a>
+            <a target="_blank" class="enlacess" href="https://www.facebook.com/?locale=es_ES"><img class=" red-social" src="../img/redes/face39zip.png" alt=" red social" title="red social" width="300" height="300" aria-label="red social: facebook"></a>
+            <a target="_blank" class="enlacess" href="https://www.instagram.com/"><img class=" red-social" src="../img/redes/ins39zip.png" alt=" red social" title="red social" width="300" height="300" aria-label="red social: instagram"></a>
+            <a target="_blank" class="enlacess" href="https://www.whatsapp.com/?lang=es_LA"><img class=" red-social" src="../img/redes/wattzip.png" alt=" red social" title="red social" width="300" height="300" aria-label="red social: watssap"></a>
+            <a target="_blank" class="enlacess" href="https://www.youtube.com/"><img class=" red-social" src="../img/redes/yout39zip.png" alt=" red social" title="red social" width="300" height="300" aria-label="red social: youtube"></a>
+            
+            
+<!-- ____________________ENLACES ________________________________ -->
+
+        </div>
+        <div class="enlaces-pie">
+            <a target="_blank" class="poli-aviso" href="https://www.emedemiguelbistrogourmet.com/cookies/avisolegal.pdf">avisos legales</a>
+            <a target="_blank" class="poli-aviso" href="https://maps.app.goo.gl/kh6eUoZxAzQQN8Ne8">dirección principal</a>
+        </div>
+
+        
+        
+    </footer>
+</body>

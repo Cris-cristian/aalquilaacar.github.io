@@ -1,0 +1,315 @@
+html{
+    scroll-behavior:smooth;
+}
+/**************************************************************************************************************************************************************************** BODY **********************************************************************************************************************************************************/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    background-color:rgb(240, 248, 255);
+    
+}
+
+a{
+    transition: all .3s ease-in-out;
+}
+
+a:hover{
+    color: rgb(51, 172, 224);
+    transition: all  .3s ease-in-out  ;
+}
+
+li{
+    
+    transition: all .3s ease-in-out;
+}
+li:hover{
+    color: rgb(51, 172, 224);
+    transition: all  .3s ease-in-out;
+    transform: scale(.8);
+}
+
+img{
+    transition: all .4s ease-in-out; 
+}
+img:hover{
+    transition: all  .4s ease-in-out;
+    transform: scale(.9);
+}
+
+/************************************************************************************************************************************************************************************ HEADER   ************************************************************************************************************************************************************/
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: auto;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.logo{
+    margin-left: 20px;
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    margin: auto;
+    justify-content:space-between;
+    padding: 10PX;
+    text-decoration: none;
+    font-size: 25px;
+    width: 95%;
+
+
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+    list-style-type: none;
+    text-transform: capitalize;
+    align-items: center;
+    
+}
+
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+
+/******************************************************************************************************************************************************************************** MAIN **********************************************************************************************************************************************************/
+main{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+h1{
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding:30px;
+    background-color:rgb(240, 248, 255);
+
+}
+.div1{
+    display: inline-flex;
+    margin: auto 40px;
+    background-color: aliceblue;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+    
+
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: auto;
+    width: 40%;
+    height: 35%;
+    
+    box-shadow: 0 2px 2px 2px rgb(201, 201, 201);
+    padding: 20px;
+}
+.fondo{
+    width: 45%;
+    height: auto;
+    margin-right: 40px;
+    padding: 20px;
+}
+p{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+span{
+    color: rgb(134, 167, 184);
+}
+h3{
+    background-color:#ffffff ;
+    height:100px;
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    text-transform:uppercase;
+    justify-content: center;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.vendidos{
+    max-height: 500px;
+    width: 100%;
+    display: flex;
+    background-color:#ffffff ;
+    justify-content: space-around;
+    margin:0 auto;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin-bottom: 0px;
+}
+
+.coche{
+
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(198, 198, 198);
+    height: auto;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-inline: 20px;
+    min-width: 200px;
+
+}
+
+.coche1{
+    width: 70%;
+    height: 40%;
+}
+
+.coche2{
+    width: 70%;
+    height: 40%;
+}
+.coche3{
+    width: 70%;
+    height: 40%;
+}
+
+.parrafo{
+
+    width: 90%;
+    margin: 10px;
+    
+}
+
+.ultima{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color:rgb(240, 248, 255);
+    
+    
+}
+.h3{
+    background-color:rgb(240, 248, 255);
+    
+}
+
+.tra-seccion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    box-shadow: 0 0 10px rgb(198, 198, 198);
+    border-radius: 20px;
+    
+    
+}
+.contentos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 120px;
+    margin: auto;
+    background-color:rgb(240, 248, 255);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(198, 198, 198);
+    margin-top: 20px;
+}
+
+.tra-seccion>p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    margin: 10px;
+    
+}
+
+
+
+/****************************************************************************************************************************************************************************************************************************************************************************************************FOOTER    ****************************************************************************************************************************************************************/
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(93, 127, 179);
+    margin-top: 40px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+}
+.piediv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: auto;
+    background-color: transparent;
+    justify-content: center;
+    padding: 3%;
+    gap: 5%;
+    
+}
+
+
+.red-social{
+
+    width:100%;
+    height: 100%;
+}
+.enlacess{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0%;
+    width: 10%;
+    height: 10%;
+}
+
+
+
+.enlaces-pie{
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    align-self: center;
+    text-decoration: underline;
+    gap: 5%;
+    padding: 2%;
+    margin-top: -4%;
+    color: #ffffff;
+}
+
+.poli-aviso{
+
+    color: #ffffff;
+
+}
